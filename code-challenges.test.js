@@ -176,6 +176,15 @@ for(let i=0; i<array.length; i++){
     counts[array[i]] = 1
   }
 }
-  console.log(counts)
-  }
 // Cool, so this counted how many of each number I have. Now on to the next part of the logic.
+// First I need to make sure there are only two keys in the object.
+// Then I need to check to see if the keys of those objects include 3 and 2
+// If there is a 3 and a 2 return true, otherwise return false
+if(Object.keys(counts).length === 2){
+  if(Object.values(counts).includes(3) && Object.values(counts).includes(2)){
+    return true
+  }
+}
+return false
+  }
+// Whaaaaaattttt!!!! Green. My husband is clicking a button trying to pavlov my success ahahahaha yess!
