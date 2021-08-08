@@ -26,6 +26,7 @@ Migrations are used to modify a database through changing/adding columns or adju
 
 
 6. What is the command to generate a migration file?
+
 $rails g migration action_utilized_to_adjust_table
 
 
@@ -34,12 +35,12 @@ $rails g migration action_utilized_to_adjust_table
 The naming convention to generate a Rails model is Uppercase and singular. The table created by this command will be snake_cased and singular as well.
 
 
-
 8. What is the schema file in a Rails application? Can you modify the schema directly? Why or why not?
 
 The schema holds the current the shape of the database. It also contains any information on creations and updates that have been made. You should never modify the schema directly. Schema was made to be read only representation of the most current database.
 
 9. What is the Rails console?
+
 A place within the terminal that allows a developer to interact with their database. It is an irb (interactive ruby) that is built around the rails environment
 
 

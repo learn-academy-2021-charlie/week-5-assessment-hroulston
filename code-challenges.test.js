@@ -123,7 +123,7 @@ lowerArray.map(value =>{
 }})
   return arrayA.map(value => value.charAt(0).toUpperCase() + value.slice(1))
     }
-// So I initially did lines 119-122 basically as my first attempt but I used filter and it worked except for the capital A. I tried to think of/ook up a regex way to account for lowercase and capital letters but it didn't work. So I decided to lower case the whole array, push the a words to an empty array and then put it back to uppercase. I feel like there is an easier way to do this, but this is the path that worked.
+// So I initially did lines 119-122 basically as my first attempt but I used filter and it worked except for the capital A. I tried to think of/ook up a regex way to account for lowercase and capital letters but it didn't work. So I decided to lower case the whole array, push the a words to an empty array and then put it back to uppercase. I feel like there is an easier way to do this, but this path works as well.
 
 // --------------------3) Create a function that takes in an array of 5 numbers and determines whether or not the array is a “full house”. A full house is exactly one pair and one three of a kind.
 
